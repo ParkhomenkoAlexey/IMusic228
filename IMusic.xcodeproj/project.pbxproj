@@ -18,6 +18,7 @@
 		F027F29C230074DA00AE2985 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027F29B230074DA00AE2985 /* MainTabBarController.swift */; };
 		F027F29E230075DA00AE2985 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027F29D230075DA00AE2985 /* SearchMusicViewController.swift */; };
 		F027F2A02300AFA100AE2985 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027F29F2300AFA100AE2985 /* SearchResponse.swift */; };
+		F02DCF442325A28000EA8064 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02DCF432325A28000EA8064 /* Library.swift */; };
 		F045904123032E4C00040A0C /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F045904023032E4C00040A0C /* TrackCell.xib */; };
 		F045904323032E5F00040A0C /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045904223032E5F00040A0C /* TrackCell.swift */; };
 		F04590472304066000040A0C /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04590462304066000040A0C /* FooterView.swift */; };
@@ -51,6 +52,7 @@
 		F027F29B230074DA00AE2985 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F027F29D230075DA00AE2985 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
 		F027F29F2300AFA100AE2985 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		F02DCF432325A28000EA8064 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		F045904023032E4C00040A0C /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
 		F045904223032E5F00040A0C /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		F04590462304066000040A0C /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				F027F2892300740500AE2985 /* SceneDelegate.swift */,
 				F05B750C2301D8040086B117 /* Services */,
 				F027F29B230074DA00AE2985 /* MainTabBarController.swift */,
+				F02DCF432325A28000EA8064 /* Library.swift */,
 				F05B74FD2301D7690086B117 /* Search */,
 				F027F29D230075DA00AE2985 /* SearchMusicViewController.swift */,
 				F027F28B2300740500AE2985 /* ViewController.swift */,
@@ -339,6 +342,7 @@
 				F05B75172301D8E70086B117 /* SearchModels.swift in Sources */,
 				F027F28A2300740500AE2985 /* SceneDelegate.swift in Sources */,
 				F05B75142301D8E70086B117 /* SearchPresenter.swift in Sources */,
+				F02DCF442325A28000EA8064 /* Library.swift in Sources */,
 				F045904C2304741000040A0C /* TrackDetailView.swift in Sources */,
 				F05B74FC2301CA1D0086B117 /* NetworkService.swift in Sources */,
 			);

@@ -33,7 +33,8 @@ class MainTabBarController: UITabBarController {
         
         searchVC.tabBarDelegate = self
         
-        let library = Library()
+        var library = Library()
+        library.tabBarDelegate = self
         let hostVC = UIHostingController(rootView: library)
         hostVC.tabBarItem.image = #imageLiteral(resourceName: "library")
         hostVC.tabBarItem.title = "Library"
@@ -92,7 +93,7 @@ extension MainTabBarController: MainTabBarControllerDelegate {
                        options: .curveEaseOut,
                        animations: {
                         self.view.layoutIfNeeded()
-                        self.tabBar.transform = CGAffineTransform(translationX: 0, y: 100)
+                        self.tabBar.alpha = 0
                         self.trackDetailView.miniTrackView.alpha = 0
                         self.trackDetailView.maxizedStackView.alpha = 1
         },
@@ -114,7 +115,7 @@ extension MainTabBarController: MainTabBarControllerDelegate {
                        options: .curveEaseOut,
                        animations: {
                         self.view.layoutIfNeeded()
-                        self.tabBar.transform = .identity
+                        self.tabBar.alpha = 1
                         self.trackDetailView.miniTrackView.alpha = 1
                         self.trackDetailView.maxizedStackView.alpha = 0
         },
